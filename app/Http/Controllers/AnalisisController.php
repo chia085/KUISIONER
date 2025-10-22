@@ -44,3 +44,5 @@ class AnalisisController extends Controller
         return view('analisis', ['data' => $data, 'kategori' => 'Masyarakat Umum']);
     }
 }
+
+
