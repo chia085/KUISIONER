@@ -46,3 +46,5 @@ daftar.addEventListener('click',e=>{
 });
 </script>
 @endsection
+
+
