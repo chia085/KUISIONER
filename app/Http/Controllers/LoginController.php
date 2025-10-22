@@ -25,3 +25,5 @@ class LoginController extends Controller
         return redirect()->route('dashboard')->with('success', 'Login berhasil (dummy)');
     }
 }
+
+
