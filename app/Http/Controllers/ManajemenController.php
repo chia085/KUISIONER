@@ -50,3 +50,4 @@ class ManajemenController extends Controller
         return back()->with('success', 'Layanan berhasil dihapus (simulasi).');
     }
 }
+
