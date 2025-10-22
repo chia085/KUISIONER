@@ -24,3 +24,5 @@ class AuthController extends Controller
         return back()->with('success', "Login berhasil sebagai: {$username}");
     }
 }
+
+
