@@ -27,3 +27,5 @@ class AkunController extends Controller
         return view('akun', compact('akun'));
     }
 }
+
+
