@@ -76,3 +76,4 @@ Route::prefix('analisis')->name('analisis.')->controller(AnalisisController::cla
 
 // ✅ Halaman Akun
 Route::get('/akun', [AkunController::class, 'index'])->name('akun');
+
