@@ -8,6 +8,7 @@ use App\Http\Controllers\ManajemenController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\AnalisisController;
 use App\Http\Controllers\AkunController;
+use App\Http\Controllers\PanduanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -76,4 +77,5 @@ Route::prefix('analisis')->name('analisis.')->controller(AnalisisController::cla
 
 // ✅ Halaman Akun
 Route::get('/akun', [AkunController::class, 'index'])->name('akun');
+Route::get('/panduan', [PanduanController::class, 'index'])->name('panduan');
 
