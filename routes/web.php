@@ -8,6 +8,8 @@ use App\Http\Controllers\ManajemenController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\AnalisisController;
 use App\Http\Controllers\AkunController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\TentangController;
 
 /*
 |--------------------------------------------------------------------------
@@ -76,4 +78,9 @@ Route::prefix('analisis')->name('analisis.')->controller(AnalisisController::cla
 
 // ✅ Halaman Akun
 Route::get('/akun', [AkunController::class, 'index'])->name('akun');
+
+// Route ke halaman utama
+Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/tentang', [TentangController::class, 'index'])->name('tentang');
+
 
