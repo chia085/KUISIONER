@@ -1,27 +1,17 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\LandingController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ManajemenController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\AnalisisController;
 use App\Http\Controllers\AkunController;
-<<<<<<< HEAD
 use App\Http\Controllers\PanduanController;
-=======
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\TentangController;
->>>>>>> af4c03160cf740d707257e144df660e3e032d8b7
 
-/*
-|--------------------------------------------------------------------------
-| Halaman Utama
-|--------------------------------------------------------------------------
-*/
-Route::get('/', [LandingController::class, 'index'])->name('home');
-Route::get('/landing', [LandingController::class, 'index'])->name('landing');
+
 
 /*
 |--------------------------------------------------------------------------
