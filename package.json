@@ -13,7 +13,11 @@
         "concurrently": "^9.0.1",
         "laravel-vite-plugin": "^2.0.0",
         "postcss": "^8.5.6",
+<<<<<<< HEAD
         "tailwindcss": "^4.1.16",
+=======
+        "tailwindcss": "^4.1.14",
+>>>>>>> 6e8e8076380d5f87fa31643c2b4e242f7753aa94
         "vite": "^7.0.7"
     }
 }
